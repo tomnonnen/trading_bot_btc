@@ -1,7 +1,7 @@
 # Trading bot BTC
 ## Context
 This bot analyzes the feelings of the market maker with the help of the fear and greed index (https://alternative.me/crypto/fear-and-greed-index/) that analyze the Volatility, the Market Momentum/Volume, the Social Media (twitter), the Dominance and the Trends (google trends). \
-This repository share the utils functions that can recover and organize these datas that let set up strategies.
+This repository share the utils functions that can recover and organize these datas into Backtrader to let set up strategies.
 
 The module Backtrader is used to test the strategies. Four inputs were relevant : the prices, the volume, the call and puts, and analysis of orders from BTC whale addresses. \
 https://www.coinglass.com/ is used to get these datas.
