@@ -11,4 +11,4 @@ To use it, you need to install Backtrader :
 ```bash
 pip install backtrader
 ```
-And you need to create an account on https://www.coinglass.com/ and get your coinglass secret key to use the api. You add then your key in the config.py file.
+And you need to create an account on https://www.coinglass.com/ and get your coinglass secret key to use the api. You add then your key in the src/config.py file.
