@@ -1,6 +1,7 @@
 import requests
 import csv
 import json
+from config import *
 
 class SetData:
 
@@ -63,7 +64,7 @@ class SetData:
         url = "http://open-api.coinglass.com/api/pro/v1/futures/longShort_chart?interval=" + str(interval) + "&symbol=BTC"
         params = {}
         headers = {
-        'coinglassSecret': #put here your coinglass secret
+        'coinglassSecret': API_SECRET
         }
         get_request = requests.get(url, headers=headers, data = params)
         result = json.loads(get_request.text)
