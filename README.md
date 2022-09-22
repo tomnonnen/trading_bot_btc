@@ -8,4 +8,8 @@ I used the module Backtrader to test my strategies. Four inputs were relevant fo
 The prices, the
 
 ## Use it
-To use it, you need to install 
+To use it, you need to install Backtrader :
+'''
+pip install backtrader
+'''
+And you need to create an account and get your coinglass secret to use the api. 
