@@ -61,10 +61,9 @@ class SetData:
     
     def get_call_put(self, interval):
         url = "http://open-api.coinglass.com/api/pro/v1/futures/longShort_chart?interval=" + str(interval) + "&symbol=BTC"
-        #https://open-api.coinglass.com/api/pro/v1/futures/longShort_chart?symbol=BTC&interval=2
         params = {}
         headers = {
-        'coinglassSecret': '8266a28d6e084e1bb28b9fb17d682582'
+        'coinglassSecret': #put here your coinglass secret
         }
         get_request = requests.get(url, headers=headers, data = params)
         result = json.loads(get_request.text)
