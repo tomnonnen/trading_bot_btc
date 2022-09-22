@@ -4,7 +4,7 @@ This bot analyzes the feelings of the market maker with the help of the fear and
 This repository share the utils functions that can recover and organize these datas that let set up strategies.
 
 The module Backtrader is used to test the strategies. Four inputs were relevant : the prices, the volume, the call and puts, and analysis of orders from BTC whale addresses. \
-coinglass.com is used to get these datas.
+https://www.coinglass.com/ is used to get these datas.
 
 ## Use it
 To use it, you need to install Backtrader :
